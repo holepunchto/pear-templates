@@ -1,1 +1,6 @@
-import test from 'brittle' // https://github.com/holepunchto/brittle
+'use strict'
+const test = require('brittle')
+
+test('description here', (t) => {
+  t.fail('needs test')
+})

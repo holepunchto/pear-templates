@@ -6,7 +6,8 @@
     },
     {
       "name": "description",
-      "prompt": "description"
+      "prompt": "description",
+      "default": ""
     },
     {
       "name": "type",

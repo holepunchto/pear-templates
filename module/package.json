@@ -1,12 +1,17 @@
 {
   "name": "__name__",
+  "version": "0.0.0",
   "main": "index.js",
   "type": "__type__",
+  "description": "__description__",
+  "license": "Apache-2.0",
   "scripts": {
-    "test": "brittle-bare test"
+    "test:gen": "brittle -r test/all.js test/*.test.js",
+    "test": "brittle test/all.js",
+    "lint": "standard"
   },
   "devDependencies": {
-    "brittle": "^3.0.0"
-  },
-  "license": "Apache-2.0"
+    "brittle": "^3.0.0",
+    "standard": "^17.1.2"
+  }
 }
