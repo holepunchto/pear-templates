@@ -1,0 +1,17 @@
+{
+  "params": [
+    {
+      "name": "name",
+      "prompt": "name"
+    },
+    {
+      "name": "description",
+      "prompt": "description"
+    },
+    {
+      "name": "type",
+      "default": "commonjs",
+      "prompt": "type"
+    }
+  ]
+}

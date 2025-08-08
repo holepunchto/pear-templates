@@ -1,0 +1,12 @@
+{
+  "name": "__name__",
+  "main": "index.js",
+  "type": "__type__",
+  "scripts": {
+    "test": "brittle-bare test"
+  },
+  "devDependencies": {
+    "brittle": "^3.0.0"
+  },
+  "license": "Apache-2.0"
+}
