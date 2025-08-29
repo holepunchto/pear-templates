@@ -10,6 +10,11 @@
       "default": ""
     },
     {
+      "name": "author",
+      "prompt": "author",
+      "default": "Holepunch Inc"
+    },
+    {
       "name": "type",
       "default": "commonjs",
       "prompt": "type"

@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "__type__",
   "description": "__description__",
+  "author": "__author__",
   "license": "Apache-2.0",
   "files": [],
   "scripts": {
