@@ -1,0 +1,41 @@
+{
+  "name": "__name__",
+  "main": "index.js",
+  "pear": {
+    "name": "__name__",
+    "type": "desktop",
+    "pre": "pear-electron/pre",
+    "gui": {
+      "main": "index.html",
+      "backgroundColor": "#1F2430",
+      "height": "540",
+      "width": "720"
+    }
+  },
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"npm:dev:*\"",
+    "dev:swc": "swc src --out-dir dist --watch --strip-leading-paths --copy-files",
+    "dev:pear": "pear run --pre-io .",
+    "build": "swc src --out-dir dist --strip-leading-paths --copy-files",
+    "test": "brittle test/*.test.js"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.7.8",
+    "@swc/core": "^1.13.3",
+    "brittle": "^3.0.0",
+    "chokidar": "^4.0.3",
+    "clsx": "^2.1.1",
+    "concurrently": "^9.2.0",
+    "pear-interface": "^1.0.0",
+    "prettier": "^3.6.2",
+    "prettier-config-standard": "^7.0.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "dependencies": {
+    "pear-bridge": "^1.2.0",
+    "pear-electron": "^1.7.17"
+  }
+}

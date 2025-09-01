@@ -1,0 +1,13 @@
+{
+  "params": [
+    {
+      "name": "name",
+      "prompt": "name"
+    },
+    {
+      "name": "description",
+      "prompt": "description",
+      "default": ""
+    }
+  ]
+}

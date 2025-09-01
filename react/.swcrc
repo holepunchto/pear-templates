@@ -1,0 +1,36 @@
+[
+  {
+    "test": ".*\\.jsx$",
+    "jsc": {
+      "target": "es2022",
+      "parser": {
+        "syntax": "ecmascript",
+        "jsx": true
+      },
+      "transform": {
+        "react": {
+          "runtime": "automatic",
+          "development": false,
+          "refresh": false
+        }
+      }
+    },
+    "module": {
+      "type": "es6"
+    },
+    "sourceMaps": false
+  },
+  {
+    "test": ".*\\.js$",
+    "jsc": {
+      "target": "es2022",
+      "parser": {
+        "syntax": "ecmascript"
+      }
+    },
+    "module": {
+      "type": "es6"
+    },
+    "sourceMaps": false
+  }
+]
