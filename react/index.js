@@ -1,12 +1,16 @@
 /** @typedef {import('pear-interface')} */ /* global Pear */
 import Runtime from 'pear-electron'
 import Bridge from 'pear-bridge'
+import updates from 'pear-updates'
 
-Pear.updates((update) => {
+updates((update) => {
   console.log('Application update available:', update)
 })
 
-const bridge = new Bridge()
+const bridge = new Bridge({
+  mount: '/dist',
+  bypass: ['/node_modules', '/dist']
+})
 await bridge.ready()
 
 const runtime = new Runtime()

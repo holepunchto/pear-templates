@@ -1,20 +1,18 @@
 import { useState } from 'react'
-import TitleBar from './ui/TitleBar'
-import Button from './ui/Button'
+import TitleBar from './components/title-bar'
 
 function App() {
-  const [emoji, setEmoji] = useState('desktop')
+  const [emoji, setEmoji] = useState('🐻')
 
   return (
     <main>
-      <pear-ctrl></pear-ctrl>
+      <TitleBar />
+
       <div>
         <h1>{emoji}</h1>
-        <Button
-          onClick={() => setEmoji(emoji === 'desktop' ? '🍐' : 'desktop')}
-        >
+        <button onClick={() => setEmoji(emoji === '🐻' ? '🍐' : '🐻')}>
           Toggle
-        </Button>
+        </button>
       </div>
     </main>
   )
