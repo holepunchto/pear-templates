@@ -7,7 +7,6 @@ const DIST_DIR = './dist'
 
 export function transform(code) {
   return babel.transform(code, {
-    presets: [['env', { modules: false }], 'react'],
     plugins: [['transform-react-jsx', { runtime: 'automatic' }]]
   }).code
 }
