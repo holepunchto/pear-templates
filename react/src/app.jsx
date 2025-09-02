@@ -9,7 +9,7 @@ function App() {
       <TitleBar />
 
       <div>
-        <h1>{emoji}</h1>
+        <h1>hi {emoji}</h1>
         <button onClick={() => setEmoji(emoji === '🐻' ? '🍐' : '🐻')}>
           Toggle
         </button>

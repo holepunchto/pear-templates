@@ -2,10 +2,9 @@
 import Runtime from 'pear-electron'
 import Bridge from 'pear-bridge'
 import updates from 'pear-updates'
+import { buildFile } from './build.js'
 
-updates((update) => {
-  console.log('Application update available:', update)
-})
+const isDev = Pear.config.dev
 
 const bridge = new Bridge({
   mount: '/dist',
@@ -24,3 +23,21 @@ pipe.on('data', (data) => {
 })
 
 pipe.write('hello from app')
+
+updates(async (update) => {
+  console.log('Application update available:', update)
+
+  if (isDev && update.diff) {
+    for (const change of update.diff) {
+      if (change.type === 'update' && change.key.startsWith('/src/')) {
+        try {
+          const srcPath = '.' + change.key
+          console.log('Rebuilding:', srcPath)
+          await buildFile(srcPath)
+        } catch (err) {
+          console.error('Build error:', err)
+        }
+      }
+    }
+  }
+})
