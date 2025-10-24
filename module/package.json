@@ -10,10 +10,10 @@
   "scripts": {
     "test:gen": "brittle -r test/all.js test/*.test.js",
     "test": "brittle-bare --coverage test/all.js",
-    "lint": "standard"
+    "lint": "lunte"
   },
   "devDependencies": {
     "brittle": "^3.0.0",
-    "standard": "^17.1.2"
+    "lunte": "^1.0.0"
   }
 }
