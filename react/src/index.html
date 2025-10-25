@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <script type="module" src="./index.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+      }
+      body {
+        font-family: system-ui;
+        background: #fff;
+      }
+      #root {
+        isolation: isolate;
+      }
+      #title-bar {
+        display: flex;
+        align-items: center;
+        background: #eee;
+        height: 48px;
+        padding-inline: 16px;
+        box-shadow: oklch(0% 0 0deg / 0.2) 0 -10px 5px 10px;
+        border-bottom: 1px solid #bbb;
+        -webkit-app-region: drag;
+      }
+      #title-bar > * {
+        -webkit-app-region: no-drag;
+      }
+      pear-ctrl {
+        margin-top: -5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "name": "__name__",
+  "main": "index.js",
+  "pear": {
+    "name": "__name__",
+    "type": "desktop",
+    "pre": "./pre.js",
+    "gui": {
+      "main": "dist/index.html",
+      "backgroundColor": "#1F2430",
+      "height": "540",
+      "width": "720"
+    }
+  },
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "pear run --pre-io .",
+    "dev": "pear run -d --pre-io .",
+    "test": "brittle test/*.test.js"
+  },
+  "devDependencies": {
+    "brittle": "^3.18.0",
+    "pear-interface": "^1.1.0",
+    "prettier": "^3.6.2",
+    "prettier-config-standard": "^7.0.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "dependencies": {
+    "@babel/standalone": "^7.28.3",
+    "bare-fs": "^4.2.2",
+    "bare-path": "^3.0.0",
+    "debounceify": "^1.1.0",
+    "pear-bridge": "^1.2.0",
+    "pear-electron": "^1.7.20",
+    "pear-updates": "^1.0.1"
+  },
+  "imports": {
+    "fs": {
+      "bare": "bare-fs",
+      "default": "fs"
+    },
+    "path": {
+      "bare": "bare-path",
+      "default": "path"
+    }
+  }
+}
