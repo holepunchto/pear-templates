@@ -1,17 +1,18 @@
 {
   "name": "pear-templates",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "pear": {
     "name": "templates",
     "stage": {
-      "ignore": [".github"]
+      "ignore": [
+        ".github"
+      ]
     }
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Holepunch",
   "license": "Apache-2.0"
 }
