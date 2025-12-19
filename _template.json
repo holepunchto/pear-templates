@@ -1,0 +1,17 @@
+{
+  "namespace": {
+    "default": "terminal/init",
+    "ui": "desktop/electron",
+    "node-compat": "terminal/compat"
+  },
+  "params": [
+    {
+      "name": "project",
+      "prompt": "project",
+      "select": {
+        "from": ["desktop", "terminal", "module"],
+        "crawl": { "recursive": "true" }
+      }
+    }
+  ]
+}

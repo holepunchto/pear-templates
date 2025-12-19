@@ -12,12 +12,20 @@
     {
       "name": "author",
       "prompt": "author",
-      "default": "Holepunch Inc"
+      "default": ""
+    },
+    {
+      "name": "main",
+      "prompt": "main",
+      "default": "index.js"
     },
     {
       "name": "type",
       "default": "commonjs",
-      "prompt": "type"
+      "prompt": "type",
+      "set": {
+        "boilerplate": "(type) => type === 'commonjs' ? `'use strict'` : ``"
+      }
     }
   ]
 }
