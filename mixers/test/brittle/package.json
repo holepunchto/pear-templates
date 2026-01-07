@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test:gen": "brittle -r test/all.js test/*.test.js",
+    "test": "brittle-pear --coverage test/all.js"
+  },
+  "devDependencies": {
+    "brittle": "^3.0.0"
+  }
+}

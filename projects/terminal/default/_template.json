@@ -1,0 +1,35 @@
+{
+  "params": [
+    {
+      "name": "name",
+      "prompt": "name"
+    },
+    {
+      "name": "main",
+      "default": "index.js",
+      "prompt": "main",
+      "validation": "(value) => value.endsWith('.js')",
+      "msg": "must have a .js file extension"
+    },
+    {
+      "name": "test",
+      "prompt": "test",
+      "select": "/mixers/test"
+    },
+    {
+      "name": "lint",
+      "prompt": "lint",
+      "select": "/mixers/lint"
+    },
+    {
+      "name": "ci",
+      "prompt": "ci",
+      "select": "/mixers/ci"
+    },
+    {
+      "name": "license",
+      "prompt": "license",
+      "select": "/mixers/license"
+    }
+  ]
+}

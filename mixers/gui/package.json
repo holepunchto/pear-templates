@@ -1,0 +1,10 @@
+{
+  "pear": {
+    "gui": {
+      "main": "ui/index.html",
+      "width": "__width__",
+      "height": "__height__",
+      "minWidth": "__minWidth__"
+    }
+  }
+}

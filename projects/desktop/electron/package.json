@@ -1,0 +1,19 @@
+{
+  "name": "__name__",
+  "main": "__main__",
+  "private": true,
+  "type": "module",
+  "pear": {
+    "pre": "pear-electron/pre",
+    "name": "__name__",
+    "gui": {
+      "main": "ui/index.html"
+    }
+  },
+  "scripts": {
+    "dev": "pear run -d ."
+  },
+  "devDependencies": {
+    "pear-interface": "^1.0.0"
+  }
+}
