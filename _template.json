@@ -8,7 +8,7 @@
     {
       "name": "project",
       "prompt": "project",
-      "select": "/projects"
+      "params": "/projects"
     }
   ]
 }

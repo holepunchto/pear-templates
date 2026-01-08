@@ -25,22 +25,22 @@
     {
       "name": "test",
       "prompt": "test",
-      "select": "/mixers/test"
+      "params": "/mixers/test"
     },
     {
       "name": "lint",
       "prompt": "lint",
-      "select": "/mixers/lint"
+      "params": "/mixers/lint"
     },
     {
       "name": "ci",
       "prompt": "ci",
-      "select": "/mixers/ci"
+      "params": "/mixers/ci"
     },
     {
       "name": "license",
       "prompt": "license",
-      "select": "/mixers/license"
+      "params": "/mixers/license"
     }
   ]
 }

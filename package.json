@@ -27,10 +27,10 @@
   "license": "Apache-2.0",
   "dependencies": {
     "bare-signals": "^4.2.0",
-    "paparam": "file:../paparam/paparam-1.9.1.tgz",
+    "paparam": "^1.10.0",
     "pear-gracedown": "^1.0.3",
     "pear-init": "^1.0.0",
     "pear-pipe": "^1.0.6",
-    "pear-terminal": "file:../pear-terminal/pear-terminal-1.0.1.tgz"
+    "pear-terminal": "^1.1.0"
   }
 }
