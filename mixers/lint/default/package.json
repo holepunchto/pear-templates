@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "lint": "prettier --check . && lunte",
+    "format": "prettier --write . && lunte --fix"
+  },
+  "devDependencies": {
+    "lunte": "^1.0.0",
+    "prettier": "^3.6.2",
+    "prettier-config-holepunch": "^2.0.0"
+  }
+}

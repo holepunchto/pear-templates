@@ -1,0 +1,10 @@
+[
+  {
+    "prompt": "module",
+    "name": "module",
+    "select": [
+      { "prompt": "default", "template": "./default" },
+      { "prompt": "compat", "template": "./compat" }
+    ]
+  }
+]

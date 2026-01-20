@@ -1,0 +1,11 @@
+[
+  {
+    "name": "project",
+    "prompt": "project",
+    "select": [
+      { "prompt": "desktop", "params": "./projects/desktop/" },
+      { "prompt": "module", "params": "./projects/module/" },
+      { "prompt": "terminal", "params": "./projects/terminal/" }
+    ]
+  }
+]

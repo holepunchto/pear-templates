@@ -1,0 +1,9 @@
+[
+  {
+    "name": "test",
+    "prompt": "test",
+    "select": [
+      { "prompt": "brittle", "params": "./brittle" }
+    ]
+  }
+]

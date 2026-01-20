@@ -1,0 +1,10 @@
+[
+  {
+    "prompt": "module",
+    "name": "module",
+    "select": [
+      { "prompt": "default", "params": "./default" },
+      { "prompt": "node-compat", "params": "./node-compat" }
+    ]
+  }
+]

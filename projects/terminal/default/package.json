@@ -1,0 +1,15 @@
+{
+  "name": "__name__",
+  "main": "__main__",
+  "private": true,
+  "pear": {
+    "name": "__name__"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "pear run -d ."
+  },
+  "devDependencies": {
+    "pear-interface": "^1.0.0"
+  }
+}
