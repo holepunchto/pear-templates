@@ -31,6 +31,6 @@
     "pear-gracedown": "^1.0.3",
     "pear-init": "^2.0.0-rc.0",
     "pear-pipe": "^1.0.6",
-    "pear-terminal": "^1.1.0"
+    "pear-terminal": "^2.0.0-rc.0"
   }
 }
