@@ -1,0 +1,7 @@
+{
+  "name": "lint",
+  "prompt": "lint",
+  "select": [
+    { "prompt": "default", "params": "./default" }
+  ]
+}

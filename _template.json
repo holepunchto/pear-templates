@@ -1,14 +1,11 @@
-{
-  "namespace": {
-    "default": "projects/terminal/default",
-    "ui": "projects/desktop/electron",
-    "node-compat": "projects/terminal/compat"
-  },
-  "params": [
-    {
-      "name": "project",
-      "prompt": "project",
-      "params": "/projects"
-    }
-  ]
-}
+[
+  {
+    "name": "project",
+    "prompt": "project",
+    "select": [
+      { "prompt": "desktop", "params": "./projects/desktop/" },
+      { "prompt": "module", "params": "./projects/module/" },
+      { "prompt": "terminal", "params": "./projects/terminal/" }
+    ]
+  }
+]

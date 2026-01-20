@@ -1,46 +1,44 @@
-{
-  "params": [
-    {
-      "name": "name",
-      "prompt": "name"
-    },
-    {
-      "name": "description",
-      "prompt": "description",
-      "default": ""
-    },
-    {
-      "name": "main",
-      "prompt": "main",
-      "default": "index.js"
-    },
-    {
-      "name": "type",
-      "default": "commonjs",
-      "prompt": "type",
-      "set": {
-        "boilerplate": "(type) => type === 'commonjs' ? `'use strict'` : ``"
-      }
-    },
-    {
-      "name": "test",
-      "prompt": "test",
-      "params": "/mixers/test"
-    },
-    {
-      "name": "lint",
-      "prompt": "lint",
-      "params": "/mixers/lint"
-    },
-    {
-      "name": "ci",
-      "prompt": "ci",
-      "params": "/mixers/ci"
-    },
-    {
-      "name": "license",
-      "prompt": "license",
-      "params": "/mixers/license"
+[
+  {
+    "name": "name",
+    "prompt": "name"
+  },
+  {
+    "name": "description",
+    "prompt": "description",
+    "default": ""
+  },
+  {
+    "name": "main",
+    "prompt": "main",
+    "default": "index.js"
+  },
+  {
+    "name": "type",
+    "default": "commonjs",
+    "prompt": "type",
+    "set": {
+      "boilerplate": "(type) => type === 'commonjs' ? `'use strict'` : ``"
     }
-  ]
-}
+  },
+  {
+    "name": "test",
+    "prompt": "test",
+    "params": "/mixers/test"
+  },
+  {
+    "name": "lint",
+    "prompt": "lint",
+    "params": "/mixers/lint"
+  },
+  {
+    "name": "ci",
+    "prompt": "ci",
+    "params": "/mixers/ci"
+  },
+  {
+    "name": "license",
+    "prompt": "license",
+    "params": "/mixers/license"
+  }
+]

@@ -9,8 +9,14 @@ import { pear } from './package.json' with { type: 'json' }
 
 const output = outputter('init', {
   writing: () => '',
-  wrote: ({ path }) => `* ${path}`,
-  written: () => ''
+  wrote: ({ path }, info) => {
+    info.paths.push(path)
+  },
+  written: (_, info) => {
+    let written = ''
+    for (const path of info.paths) written += '* ' + path + '\n'
+    return written
+  }
 })
 
 const program = command(
@@ -58,13 +64,14 @@ const program = command(
           header,
           pkg,
           cmdArgs
-        })
+        }),
+        { paths: [] }
       )
     } catch (err) {
       if (err.info?.code !== 'ERR_PERMISSION_REQUIRED' || !ask) throw err
       await permit(Pear.constructor[Pear.constructor.IPC], err.info, 'init')
     } finally {
-      pipe().end()
+      pipe()?.end()
     }
   },
   bail(explain)

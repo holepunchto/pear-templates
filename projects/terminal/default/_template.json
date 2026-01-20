@@ -1,35 +1,33 @@
-{
-  "params": [
-    {
-      "name": "name",
-      "prompt": "name"
-    },
-    {
-      "name": "main",
-      "default": "index.js",
-      "prompt": "main",
-      "validation": "(value) => value.endsWith('.js')",
-      "msg": "must have a .js file extension"
-    },
-    {
-      "name": "test",
-      "prompt": "test",
-      "params": "/mixers/test"
-    },
-    {
-      "name": "lint",
-      "prompt": "lint",
-      "params": "/mixers/lint"
-    },
-    {
-      "name": "ci",
-      "prompt": "ci",
-      "params": "/mixers/ci"
-    },
-    {
-      "name": "license",
-      "prompt": "license",
-      "params": "/mixers/license"
-    }
-  ]
-}
+[
+  {
+    "name": "name",
+    "prompt": "name"
+  },
+  {
+    "name": "main",
+    "default": "index.js",
+    "prompt": "main",
+    "validation": "(value) => value.endsWith('.js')",
+    "msg": "must have a .js file extension"
+  },
+  {
+    "name": "test",
+    "prompt": "test",
+    "params": "/mixers/test"
+  },
+  {
+    "name": "lint",
+    "prompt": "lint",
+    "params": "/mixers/lint"
+  },
+  {
+    "name": "ci",
+    "prompt": "ci",
+    "params": "/mixers/ci"
+  },
+  {
+    "name": "license",
+    "prompt": "license",
+    "params": "/mixers/license"
+  }
+]

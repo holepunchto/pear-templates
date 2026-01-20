@@ -1,11 +1,9 @@
-{
-  "params": [
-    {
-      "name": "author",
-      "prompt": "author",
-      "set": {
-        "year": "() => (new Date).getFullYear()"
-      }
+[
+  {
+    "name": "author",
+    "prompt": "author",
+    "set": {
+      "year": "() => (new Date).getFullYear()"
     }
-  ]
-}
+  }
+]

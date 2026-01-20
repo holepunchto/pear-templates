@@ -1,7 +1,7 @@
 {
   "scripts": {
     "lint": "prettier --check . && lunte",
-    "format": "prettier --write ."
+    "format": "prettier --write . && lunte --fix"
   },
   "devDependencies": {
     "lunte": "^1.0.0",
