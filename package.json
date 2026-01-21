@@ -29,8 +29,8 @@
     "bare-signals": "^4.2.0",
     "paparam": "^1.10.0",
     "pear-gracedown": "^1.0.3",
-    "pear-init": "^2.0.0-rc.1",
+    "pear-init": "^2.0.0-rc.3",
     "pear-pipe": "^1.0.6",
-    "pear-terminal": "^2.0.0-rc.1"
+    "pear-terminal": "^2.0.0-rc.2"
   }
 }
