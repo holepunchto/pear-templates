@@ -2,8 +2,6 @@
   {
     "name": "ci",
     "prompt": "ci",
-    "select": [
-      { "prompt": "github", "params": "./github" }
-    ]
+    "select": [{ "prompt": "github", "params": "./github" }]
   }
 ]

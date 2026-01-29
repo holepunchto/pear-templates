@@ -1,7 +1,5 @@
 {
   "name": "license",
   "prompt": "license",
-  "select": [
-    { "prompt": "Apache-2.0", "params": "./Apache-2.0/" }
-  ]
+  "select": [{ "prompt": "Apache-2.0", "params": "./Apache-2.0/" }]
 }
