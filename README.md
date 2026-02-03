@@ -1,7 +1,5 @@
 # pear-templates
 
-> Templates for Pear. 
+> Templates for Pear.
 
 `pear init pear://templates/<name>`
-
-

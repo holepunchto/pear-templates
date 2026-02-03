@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "scripts": {
+    "lint": "prettier . --check && lunte",
+    "format": "prettier . --write"
+  },
   "pear": {
     "name": "templates",
     "stage": {
@@ -32,5 +36,10 @@
     "pear-init": "^2.0.0-rc.3",
     "pear-pipe": "^1.0.6",
     "pear-terminal": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "lunte": "^1.5.0",
+    "prettier": "^3.8.1",
+    "prettier-config-holepunch": "^2.0.0"
   }
 }

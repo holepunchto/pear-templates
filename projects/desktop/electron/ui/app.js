@@ -8,10 +8,21 @@ updates({ updated: true }, (update) => {
   document.getElementById('update').style.display = 'revert'
   const action = document.getElementById('action')
   action.style.display = 'revert'
-  action.onclick = () => { restart({ platform: !update.app }) }
-  action.innerText = 'Restart ' + (update.app ? 'App' : 'Pear') + ' [' + update.version.fork + '.' + update.version.length + ']'
+  action.onclick = () => {
+    restart({ platform: !update.app })
+  }
+  action.innerText =
+    'Restart ' +
+    (update.app ? 'App' : 'Pear') +
+    ' [' +
+    update.version.fork +
+    '.' +
+    update.version.length +
+    ']'
 })
 
-document.querySelector('h1').addEventListener('click', (e) => { e.target.innerHTML = '🍐' })
+document.querySelector('h1').addEventListener('click', (e) => {
+  e.target.innerHTML = '🍐'
+})
 
 console.log(await ui.app.dimensions()) // log app dimensions

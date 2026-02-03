@@ -2,8 +2,6 @@
   {
     "prompt": "desktop",
     "name": "desktop",
-    "select": [
-      { "prompt": "electron", "params": "./electron" }
-    ]
+    "select": [{ "prompt": "electron", "params": "./electron" }]
   }
 ]

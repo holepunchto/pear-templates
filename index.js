@@ -77,6 +77,4 @@ const program = command(
   bail(explain)
 )
 
-
-
 program.parse(Pear.app.args)
