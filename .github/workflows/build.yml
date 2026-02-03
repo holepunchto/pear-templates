@@ -7,7 +7,7 @@ on:
         type: string
         description: Channel to build
         required: true
-        default: 'dev'
+        default: "dev"
   workflow_dispatch:
     inputs:
       channel:
