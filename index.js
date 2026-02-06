@@ -52,8 +52,9 @@ const program = command(
     const cmdArgs = cmd.argv
 
     try {
+      const outputOpts = yes ? false : { ctrlTTY: false }
       await output(
-        false,
+        outputOpts,
         init(link, {
           dir,
           cwd,
