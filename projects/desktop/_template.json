@@ -1,7 +1,10 @@
 [
   {
-    "prompt": "desktop",
+    "prompt": "UI tech",
     "name": "desktop",
-    "select": [{ "prompt": "electron", "params": "./electron" }]
+    "select": [
+      { "prompt": "Vanilla", "params": "./electron" },
+      { "prompt": "React", "params": "./electron-react" }
+    ]
   }
 ]

@@ -1,22 +1,22 @@
 [
   {
     "name": "name",
-    "prompt": "name"
+    "prompt": "Name"
   },
   {
     "name": "description",
-    "prompt": "description",
+    "prompt": "Description",
     "default": ""
   },
   {
     "name": "main",
-    "prompt": "main",
+    "prompt": "Main",
     "default": "index.js"
   },
   {
     "name": "type",
     "default": "commonjs",
-    "prompt": "type",
+    "prompt": "Type",
     "set": {
       "boilerplate": "(type) => type === 'commonjs' ? `'use strict'` : ``"
     }

@@ -1,18 +1,18 @@
 [
   {
     "name": "name",
-    "prompt": "name"
+    "prompt": "Name"
   },
   {
     "name": "main",
     "default": "index.js",
-    "prompt": "main",
+    "prompt": "Main",
     "validation": "(value) => value.endsWith('.js')",
     "msg": "must have a .js file extension"
   },
   {
     "name": "license",
     "default": "Apache-2.0",
-    "prompt": "license"
+    "prompt": "License"
   }
 ]

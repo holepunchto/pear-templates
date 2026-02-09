@@ -1,5 +1,11 @@
 {
   "name": "license",
-  "prompt": "license",
-  "select": [{ "prompt": "Apache-2.0", "params": "./Apache-2.0/" }]
+  "prompt": "License",
+  "select": [
+    { "prompt": "Apache-2.0", "params": "./Apache-2.0/" },
+    { "prompt": "MIT", "params": "./MIT/" },
+    { "prompt": "ISC", "params": "./ISC/" },
+    { "prompt": "GPL-3.0", "params": "./GPL-3.0/" },
+    { "prompt": "None", "params": null }
+  ]
 }

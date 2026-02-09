@@ -41,9 +41,10 @@ const program = command(
 
     const cfg = pkg?.pear || {}
     const name = cfg?.name || pkg?.name || basename(dir)
-    const link = cmd.args.link || 'default'
+    const link = cmd.args.link
 
-    const defaults = { name }
+    const author = os.userInfo().username
+    const defaults = { name, author }
 
     const banner = `${ansi.bold(name)} ~ ${ansi.dim('Welcome to the Internet of Peers')}`
     let header = `\n${banner}${ansi.dim('›')}\n\n`
