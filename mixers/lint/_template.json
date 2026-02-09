@@ -2,7 +2,7 @@
   "name": "lint",
   "prompt": "Lint and formatter",
   "select": [
-    { "prompt": "default", "params": "./default" },
+    { "prompt": "Prettier + Lunte", "params": "./default" },
     { "prompt": "None", "params": null }
   ]
 }
