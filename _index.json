@@ -1,0 +1,23 @@
+[
+  {
+    "name": "project",
+    "prompt": "Choose a project type",
+    "select": [
+      {
+        "prompt": "Terminal",
+        "detail": "Basic terminal app",
+        "link": "/projects/terminal"
+      },
+      {
+        "prompt": "Desktop (UI)",
+        "detail": "Electron desktop app",
+        "link": "/projects/desktop"
+      },
+      {
+        "prompt": "Module",
+        "detail": "Reusable package template",
+        "link": "/projects/module"
+      }
+    ]
+  }
+]

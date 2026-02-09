@@ -1,0 +1,36 @@
+{
+  "name": "__name__",
+  "main": "__main__",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/main.jsx --bundle --format=esm --packages=external --outfile=dist/bundle.js",
+    "dev": "npm run build && pear run -d .",
+    "prestage": "npm i && npm run build && npm prune --omit=dev"
+  },
+  "pear": {
+    "pre": "pear-electron/pre",
+    "name": "__name__",
+    "gui": {
+      "main": "index.html"
+    },
+    "stage": {
+      "ignore": [
+        "src/",
+        "dev.js"
+      ]
+    }
+  },
+  "dependencies": {
+    "pear-bridge": "^1.2.5",
+    "pear-electron": "^1.7.27",
+    "pear-updates": "^1.1.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "bare-subprocess": "^5.2.2",
+    "esbuild": "^0.27.2",
+    "pear-interface": "^1.0.0"
+  }
+}
