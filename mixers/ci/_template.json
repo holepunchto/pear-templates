@@ -1,7 +1,10 @@
 [
   {
     "name": "ci",
-    "prompt": "ci",
-    "select": [{ "prompt": "github", "params": "./github" }]
+    "prompt": "CI",
+    "select": [
+      { "prompt": "github", "params": "./github" },
+      { "prompt": "None", "params": null }
+    ]
   }
 ]

@@ -1,11 +1,11 @@
 [
   {
     "name": "name",
-    "prompt": "name"
+    "prompt": "Name"
   },
   {
     "name": "main",
-    "prompt": "main",
+    "prompt": "Main",
     "default": "index.js"
   },
   {

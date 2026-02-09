@@ -2,7 +2,7 @@
   {
     "name": "height",
     "validation": "(value) => Number.isInteger(+value)",
-    "prompt": "height",
+    "prompt": "Height (px)",
     "msg": "must be an integer",
     "default": 500,
     "override": ["pear", "gui", "height"],
@@ -11,7 +11,7 @@
   {
     "name": "width",
     "validation": "(value) => Number.isInteger(+value)",
-    "prompt": "width",
+    "prompt": "Width (px)",
     "msg": "must be an integer",
     "default": 900,
     "override": ["pear", "gui", "width"],
@@ -20,7 +20,7 @@
   {
     "name": "minWidth",
     "validation": "(value) => Number.isInteger(+value)",
-    "prompt": "min width",
+    "prompt": "Min width (px)",
     "msg": "must be an integer",
     "default": 500,
     "override": ["pear", "gui", "minWidth"],

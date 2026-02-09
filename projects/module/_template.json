@@ -1,6 +1,6 @@
 [
   {
-    "prompt": "module",
+    "prompt": "Module variant",
     "name": "module",
     "select": [
       { "prompt": "default", "template": "./default" },

@@ -1,7 +1,10 @@
 [
   {
     "name": "test",
-    "prompt": "test",
-    "select": [{ "prompt": "brittle", "params": "./brittle" }]
+    "prompt": "Test framework",
+    "select": [
+      { "prompt": "brittle", "params": "./brittle" },
+      { "prompt": "None", "params": null }
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "prompt": "desktop",
+    "prompt": "Desktop runtime",
     "name": "desktop",
     "select": [{ "prompt": "electron", "params": "./electron" }]
   }

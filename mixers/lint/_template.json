@@ -1,5 +1,8 @@
 {
   "name": "lint",
-  "prompt": "lint",
-  "select": [{ "prompt": "default", "params": "./default" }]
+  "prompt": "Lint and formatter",
+  "select": [
+    { "prompt": "default", "params": "./default" },
+    { "prompt": "None", "params": null }
+  ]
 }

@@ -1,7 +1,7 @@
 [
   {
     "name": "project",
-    "prompt": "project",
+    "prompt": "Project type",
     "select": [
       { "prompt": "desktop", "params": "./projects/desktop/" },
       { "prompt": "module", "params": "./projects/module/" },

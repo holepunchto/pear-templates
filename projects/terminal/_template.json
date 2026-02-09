@@ -1,6 +1,6 @@
 [
   {
-    "prompt": "module",
+    "prompt": "Terminal variant",
     "name": "module",
     "select": [
       { "prompt": "default", "params": "./default" },
